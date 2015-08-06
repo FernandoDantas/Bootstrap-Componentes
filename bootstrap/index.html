@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="description" content="Bootstrap" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row-fluid">
+	<div class="span8 bloco1">
+	<h1>Corpo</h1>
+	<p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing</strong> elit, sed do eiusmod
+	<em>tempor incididunt ut labore et dolore magna aliqua.</em> Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure <i>dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur.</i> Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt <b>mollit anim id est laborum.</b></p>
+
+	<p class="well">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<p class="muted">Frase com ênfase</p>
+	<p class="text-warning">Frase com ênfase</p>
+	<p class="text-error">Frase com ênfase</p>
+	<p class="text-info">Frase com ênfase</p>
+	<p class="text-sucess">Frase com ênfase</p>
+
+	<abbr title="atributo" class="initialism">attr</abbr>
+
+	<blockquote class="pull-right">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.</p>
+	<small> Alguém famoso <cite>Lorem ipsum dolor</cite></small>
+	</blockquote>
+
+	<table class="table table-hover table-bordered table-condensed">
+		<caption> Aprovados e Reprovados</caption>
+        <thead>
+        <tr>
+        	<th>Numero</th>
+        	<th>Nome</th>
+        	<th>Nota</th>
+        	<th>Situação</th>
+        </tr>
+        </thead>
+        <tbody>
+        	<tr class="success">
+        		<td>01</td>
+        		<td>Ana Maria</td>
+        		<td>9.0</td>
+        		<td>Aprovada</td>
+        	</tr>
+        	<tr class="success">
+        		<td>02</td>
+        		<td>João Bosoc</td>
+        		<td>8.0</td>
+        		<td>Aprovada</td>
+        	</tr>
+        	<tr class="warning">
+        		<td>03</td>
+        		<td>Vitor Hugo</td>
+        		<td>6.0</td>
+        		<td>Recuperação</td>
+        	</tr>
+        	<tr class="error">
+        		<td>04</td>
+        		<td>Alana Ferraz</td>
+        		<td>5.0</td>
+        		<td>Reprovada</td>
+        	</tr>
+        	<tr class="info">
+        		<td>05</td>
+        		<td>Maria Clara</td>
+        		<td>4.0</td>
+        		<td>Pendente</td>
+        	</tr>
+        </tbody>
+	</table>
+   <form action="">
+       <input type="text" class="input-block-level">
+   </form>
+   <form action="">
+   	<input class="input-mini" type="text" placeholder="Campo de texto"><br>
+   	<input class="input-small" type="text" placeholder="Campo de texto"><br>
+   	<input class="input-medium" type="text" placeholder="Campo de texto"><br>
+   	<input class="input-large" type="text" placeholder="Campo de texto"><br>
+   	<input class="input-xlarge" type="text" placeholder="Campo de texto"><br>
+   	<span class="uneditable-input">Input Desabilitado</span>
+   	<div class="input-append">
+   		<input class="input-xxlarge" type="text" placeholder="Campo de texto">
+		<button class="btn">Entrar</button>
+		<button class="btn">Sair</button>
+   	</div>
+   </form>
+
+   <form action="">
+   <div class="controls input-prepend">
+    <span class="add-on"><i class="icon-user"></i></span><!--Classe add-on adiciona uma perfumeria no form e tag i o icone desejado da perfumaria-->
+   	<input type="text" class="span5" id="prependInput" placeholder="Nome de Usuario">
+   </div>
+   <div class="controls controls-row">	
+	   	<input type="text" class="span4">
+	   	<div class="input-append">
+	   	<input type="text" class="span1" id="appendInput">
+	   	<span class="add-on"><i class="icon-search"></i></span>
+	   	</div>
+   </div>
+   </form>
+
+   <form action="" class="form-horizontal">
+        	 <div class="control-group">
+        	 	<label for="" class="control-label">Email</label>
+           	 	<div class="controls">
+        	 	<input type="email" id="inputEmail" required>
+        	 </div>
+        	 </div>
+        	 <div class="control-group">
+        	 	<label for="" class="control-label">Senha</label>
+        	 	<div class="controls">
+        	 	<input type="text" id="inputPassword" disabled>
+           	 	<button class="btn">Entrar</button>
+           	 	</div>
+        	 </div>
+
+        	 <div class="control-group warning">
+        	 	<label for="" class="control-label">Input Com Aviso</label>
+        	 	<div class="controls">
+        	 		<input type="text">
+        	 		<span class="help-inline">Alguma Coisa deu errado!</span>
+        	 		</div>
+        	 </div>
+
+        	 <div class="control-group error">
+        	 	<label for="" class="control-label">Input com Erro</label>
+        	 	<div class="controls">
+        	 		<input type="text">
+        	 		<span class="help-inline">Por favor corrija o erro</span>
+        	 		</div>
+        	 </div>
+
+        	 <div class="control-group info">
+        	 	<label for="" class="control-label">Input com informação</label>
+        	 	<div class="controls">
+        	 		<input type="text">
+        	 		<span class="help-inline">Este campo é obrigátorio</span>
+        	 		</div>
+        	 </div>
+
+        	 <div class="control-group success">
+        	 	<label for="" class="control-label">Input com sucesso</label>
+        	 	<div class="controls">
+        	 		<input type="text">
+        	 		<span class="help-inline">Tudo ok</span>
+        	 		</div>
+        	 </div>
+
+        </form>
+        <div>
+         <img src="img/passaro.jpg" class="img-rounded"><!--Aqui fica a imagem do passaro cada uma com classe diferentes para dar uma estilização diferente classes ja embutidas no bootstrap-->
+          <img src="img/passaro.jpg" class="img-circle">
+           <img src="img/passaro.jpg" class="img-polaroid">
+         </div>
+	</div>
+	<div class="span4 bloco2">
+	 <h1>Barra Lateral</h1>
+
+	 <form action="" class="form-search">
+		 <input type="text" class="input-medium search-query">
+		 <button class="btn">Busca</button>
+	 </form>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed atque doloribus reprehenderit assumenda ducimus, eum corporis at earum saepe reiciendis tenetur praesentium minus cumque, numquam repellat officiis alias eius asperiores.</p>
+         <ul class="unstyled">
+          <li><i class="icon-music icon-white"></i> Menu 1</li><!--ao se colocar a tag i com classe icon e especificar o icone a imagem salva na pasta img coloca o icone correspondente ao texto nome especificado do icone e icon-white coloca o icone branco-->
+          <li><i class="icon-camera"></i> Menu 2</li>
+          <li><i class="icon-refresh"></i> Menu 3
+          <ul>
+          	 <li> sub menu 1</li>
+          	 <li> sub menu 2</li>
+          	 <li> sub menu 3</li>
+          </ul>
+         </li>
+          <li><i class="icon-tags"></i> Menu 4</li>
+          <li><i class="icon-print"></i> Menu 5</li>
+         </ul>
+
+        <ol class="inline">
+         <li>Menu 1</li>
+         <li>Menu 2</li>
+         <li>Menu 3</li>
+         <li>Menu 4</li>
+         <li>Menu 5</li>
+        </ol>
+
+        <dl class="dl-horizontal">
+	        <dt> Iten 1</dt>
+	        <dd> Descriçaõ da lista</dd>
+	        <dt> Iten 2</dt>
+	        <dd> Descrição da lista</dd>
+	        <dt> Iten 3</dt>
+	        <dd> Descriçaõ da lista</dd>
+	        <dt> Iten 4</dt>
+	        <dd> Descriçaõ da lista</dd>
+	        <dt> Iten 5</dt>
+            <dd> Descriçaõ da lista</dd>
+        </dl>
+        <div class="btn-toolbar">
+	        <div class="btn-group">
+	        	<a href="" class="btn"><i class="icon-align-left"></i></a>
+	        	<a href="" class="btn"><i class="icon-align-center"></i></a>
+	        	<a href="" class="btn"><i class="icon-align-right"></i></a>
+	        	<a href="" class="btn"><i class="icon-align-justify"></i></a>
+	        </div>
+        </div>
+
+        <form action="" class="form-inline">
+        	<input type="text" class="input-small" placeholder="Email">
+        	<input type="text" class="input-small" placeholder="Senha">
+        	<button class="btn">Entrar</button>
+        </form>
+        <a href="" class="btn">Link</a>
+        <button class="btn">Botão</button>
+        <input type="button" value="Input" class="btn">
+        <input type="submit" value="Enviar" class="btn">
+
+        <div>
+        	<button class="btn btn-large">Padrão</button><br>
+        	<button class="btn btn-primary btn-small">Primário</button><br>
+        	<button class="btn btn-info btn-mini">Informações</button><br>
+        	<button class="btn btn-success btn-block">Sucesso</button><br>
+        	<button class="btn btn-warning disabled">Aviso</button><br>
+        	<button class="btn btn-danger"><i class="icon-fire icon-white"></i> Perigo</button><br><!--Se quiser que os icones fiquem brancos é socolocar o nome do icone e a classe icon-white-->
+        	<button class="btn btn-inverse">Inverso</button><br>
+        	<button class="btn btn-link">Link</button>
+        </div>
+
+	  </div>
+</div>
+</div>
+
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
