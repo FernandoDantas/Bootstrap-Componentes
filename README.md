@@ -1,2 +1,2 @@
 # Bootstrap-Componentes
-Componentes desenvolvido utilizando o twitter bootstrap
+Componentes desenvolvidos utilizando o twitter bootstrap ótimos para reutilização
